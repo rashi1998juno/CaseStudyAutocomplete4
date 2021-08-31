@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Suite 4.2" duration-ms="30171" started-at="2021-08-10T17:57:57 IST" finished-at="2021-08-10T17:58:27 IST">
+    <groups>
+    </groups>
+    <test name="Testing the Autocomplete Field" duration-ms="30171" started-at="2021-08-10T17:57:57 IST" finished-at="2021-08-10T17:58:27 IST">
+      <class name="com.qa.testscript.AutoCompleteItemsItems">
+        <test-method status="PASS" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscript.AutoCompleteItemsItems@1500955a]" name="setUp" is-config="true" duration-ms="6418" started-at="2021-08-10T17:57:57 IST" finished-at="2021-08-10T17:58:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SearchTextbox(java.lang.String)[pri:0, instance:com.qa.testscript.AutoCompleteItemsItems@1500955a]" name="SearchTextbox" duration-ms="7046" started-at="2021-08-10T17:58:05 IST" data-provider="get_Data" finished-at="2021-08-10T17:58:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTextbox -->
+        <test-method status="PASS" signature="SearchTextbox(java.lang.String)[pri:0, instance:com.qa.testscript.AutoCompleteItemsItems@1500955a]" name="SearchTextbox" duration-ms="5307" started-at="2021-08-10T17:58:12 IST" data-provider="get_Data" finished-at="2021-08-10T17:58:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTextbox -->
+        <test-method status="PASS" signature="SearchTextbox(java.lang.String)[pri:0, instance:com.qa.testscript.AutoCompleteItemsItems@1500955a]" name="SearchTextbox" duration-ms="3708" started-at="2021-08-10T17:58:17 IST" data-provider="get_Data" finished-at="2021-08-10T17:58:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Github]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchTextbox -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscript.AutoCompleteItemsItems@1500955a]" name="tearDown" is-config="true" duration-ms="6330" started-at="2021-08-10T17:58:21 IST" finished-at="2021-08-10T17:58:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.AutoCompleteItemsItems -->
+    </test> <!-- Testing the Autocomplete Field -->
+  </suite> <!-- Testing Suite 4.2 -->
+</testng-results>
